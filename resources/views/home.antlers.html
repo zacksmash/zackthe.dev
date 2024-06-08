@@ -9,7 +9,7 @@
   </head>
   <body class="bg-slate-100">
     <main class="md:flex">
-      <aside class="relative z-30 flex-col border-r-2 border-slate-200 bg-slate-100 px-4 py-6 md:sticky md:left-0 md:top-0 md:flex md:h-full md:min-h-screen md:w-full md:max-w-xs md:p-10 lg:max-w-lg">
+      <aside class="relative z-30 flex flex-col border-r-2 border-slate-200 bg-slate-100 px-4 py-6 md:sticky md:left-0 md:top-0 md:h-full md:min-h-screen md:w-full md:max-w-xs md:p-10 lg:max-w-lg">
         <div class="size-48 overflow-hidden rounded-xl bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 shadow-xl">
           <img src="/img/zack-warren.jpeg" alt="Zack Warren" class="aspect-square object-cover object-center saturate-0" />
         </div>
@@ -18,7 +18,7 @@
         <span class="inline-flex text-lg text-slate-500">Full-stack Developer</span>
 
         <article class="easing-relaxed prose prose-slate mt-6">
-          <p class="lead">I'm a full-stack developer with a passion for creating beautiful and functional websites and web applications. I have over 10 years of experience in the industry and have worked with a wide range of clients, from small startups to large corporations.</p>
+          <p class="lead">Frontend, backend, fullstack... whatever you want to call it. I just love to build stuff for the web. Whether it's code or content, I'm always driven to be as optimistic as possible to make sure that every engagment I have with a client, fellow developer, or anyone really, is positive and memorable!</p>
           <p>Sweating the details is what I do best. I love working with clients to bring their ideas to life and create something that is not only visually stunning but also highly functional and user-friendly. I'm always looking for new challenges and opportunities to learn and grow as a developer.</p>
         </article>
 
@@ -64,8 +64,8 @@
                     <p>I'm {{ zacks_age }} years old, I work and live in Northern Utah. I'm married to my amazing wife, Brooke, who I've know for almost my whole life. Together, we have a son Named River and our pupper Charlie (or Charles).</p>
                   </div>
                 </div>
-                <div class="w-full text-center md:w-1/2">
-                  <img src="/img/warren-family.jpeg" alt="Zack Warren" class="mx-auto block aspect-square rounded-xl object-cover object-center shadow-xl saturate-0" />
+                <div class="w-full self-start text-center md:w-1/2">
+                  <img src="/img/hero-image.jpeg" alt="Zack Warren" class="mx-auto block aspect-square rounded-xl object-cover object-center shadow-xl" />
                 </div>
               </div>
             </div>
@@ -85,61 +85,59 @@
           </div>
 
           {{# Skills #}}
-          {{#
-            <div class="relative flex gap-6 lg:gap-14 xl:gap-20">
-              <div class="sticky top-16 block self-start [writing-mode:vertical-rl]">
-                <h2 class="text-xl font-bold text-slate-800">Skillset</h2>
-              </div>
-              <div class="flex w-full flex-col">
-                <div class="grid w-full max-w-5xl grid-cols-1 gap-8 gap-x-4 sm:grid-cols-2 md:grid-cols-3">
-                  <article class="prose prose-slate">
-                    <p class="font-bold">Core skills</p>
-                    <ul>
-                      <li>HTML</li>
-                      <li>CSS/SCSS</li>
-                      <li>Javascript (ES6)</li>
-                      <li>PHP</li>
-                    </ul>
-                  </article>
-                  <article class="prose prose-slate">
-                    <p class="font-bold">Frameworks</p>
-                    <ul>
-                      <li>Vue.js</li>
-                      <li>Ionic</li>
-                      <li>Intertia.js</li>
-                      <li>Tailwind</li>
-                    </ul>
-                  </article>
-                  <article class="prose prose-slate">
-                    <p class="font-bold">Technologies</p>
-                    <ul>
-                      <li>Bash / Terminal</li>
-                      <li>Vite/Webpack</li>
-                      <li>Package managers (NPM)</li>
-                      <li>Git</li>
-                    </ul>
-                  </article>
-                  <article class="prose prose-slate">
-                    <p class="font-bold">Back-end</p>
-                    <ul>
-                      <li>PHP/Laravel</li>
-                      <li>Mysql</li>
-                      <li>Redis</li>
-                    </ul>
-                  </article>
-                  <article class="prose prose-slate">
-                    <p class="font-bold">Topics</p>
-                    <ul>
-                      <li>Testing / TDD</li>
-                      <li>Github Actions (CI/CD)</li>
-                      <li>Application Architecture</li>
-                      <li>Consulting & Code Auditing</li>
-                    </ul>
-                  </article>
-                </div>
+          <div class="relative flex gap-6 lg:gap-14 xl:gap-20">
+            <div class="sticky top-16 block self-start [writing-mode:vertical-rl]">
+              <h2 class="text-xl font-bold text-slate-800">Skillset</h2>
+            </div>
+            <div class="flex w-full flex-col">
+              <div class="grid w-full max-w-5xl grid-cols-1 gap-8 gap-x-4 sm:grid-cols-2 md:grid-cols-3">
+                <article class="prose prose-slate">
+                  <p class="font-bold">Core skills</p>
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS/SCSS</li>
+                    <li>Javascript (ES6)</li>
+                    <li>PHP</li>
+                  </ul>
+                </article>
+                <article class="prose prose-slate">
+                  <p class="font-bold">Frameworks</p>
+                  <ul>
+                    <li>Vue.js</li>
+                    <li>Ionic</li>
+                    <li>Intertia.js</li>
+                    <li>Tailwind</li>
+                  </ul>
+                </article>
+                <article class="prose prose-slate">
+                  <p class="font-bold">Technologies</p>
+                  <ul>
+                    <li>Bash / Terminal</li>
+                    <li>Vite/Webpack</li>
+                    <li>Package managers (NPM)</li>
+                    <li>Git</li>
+                  </ul>
+                </article>
+                <article class="prose prose-slate">
+                  <p class="font-bold">Back-end</p>
+                  <ul>
+                    <li>PHP/Laravel</li>
+                    <li>Mysql</li>
+                    <li>Redis</li>
+                  </ul>
+                </article>
+                <article class="prose prose-slate">
+                  <p class="font-bold">Topics</p>
+                  <ul>
+                    <li>Testing / TDD</li>
+                    <li>Github Actions (CI/CD)</li>
+                    <li>Application Architecture</li>
+                    <li>Consulting & Code Auditing</li>
+                  </ul>
+                </article>
               </div>
             </div>
-          #}}
+          </div>
 
           {{# Work/Roles #}}
           <div class="relative flex gap-6 lg:gap-14 xl:gap-20">
@@ -153,7 +151,7 @@
                   <div>
                     <h3 class="mt-2 text-2xl font-bold text-slate-800">Director of Development / Max Connect Digital</h3>
                     <article class="prose prose-slate mt-4">
-                      <p>As the Director of Development, I lead a team of front-end and back-end developers to create high-quality web applications and websites for our clients. I am responsible for overseeing the development process from start to finish, ensuring that our products meet the highest standards of quality and performance.</p>
+                      <p>As the Director of Development, I lead a team of full-stack developers that work on in-house software as well as client projects. My primary focus is our custom-built marketing attribution software, called Kudos. Kudos gives our clients the ultimate reporting software so they can see exactly where their marketing dollars are going and the effects of each of their marketing efforts, channel by channel & metric by metric.</p>
                     </article>
                   </div>
                 </div>
