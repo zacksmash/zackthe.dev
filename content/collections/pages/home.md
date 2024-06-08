@@ -3,6 +3,7 @@ title: Home
 id: home
 template: home
 blueprint: pages
+layout: 'home'
 ---
 ## Welcome to your brand new Statamic site!
 

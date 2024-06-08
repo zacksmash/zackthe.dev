@@ -1,0 +1,24 @@
+{
+  "tabWidth": 2,
+  "endOfLine": "lf",
+  "plugins": [
+    "prettier-plugin-antlers",
+    "prettier-plugin-tailwindcss"
+  ],
+  "overrides": [
+    {
+      "files": "*.antlers.html",
+      "options": {
+        "printWidth": 999,
+        "parser": "antlers",
+        "singleQuote": false
+      }
+    },
+    {
+      "files": ["**/*.css", "**/*.html"],
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
+}
