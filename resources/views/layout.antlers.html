@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ title ?? site:name }}</title>
     {{ vite src="resources/js/site.js|resources/css/site.css" }}
+    {{# Meta Details #}}
+    <meta name="description" content="Web software developer/engineer from the greater Salt Lake City area." />
+    <meta name="keywords" content="Laravel, Vue, Tailwind, iOS, Shopify, Mobile, Web, Saas, Website, Web App, Developer, Engineer" />
+    {{# Open Graph #}}
+    <meta property="og:title" content="Zack Warren | Fullstack Laravel Web Engineer" />
+    <meta property="og:description" content="Web software developer/engineer from the greater Salt Lake City area." />
   </head>
   <body>
     {{ partial:global.header }}
