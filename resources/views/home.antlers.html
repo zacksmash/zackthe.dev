@@ -15,11 +15,10 @@
         </div>
 
         <span class="mt-8 text-2xl font-bold text-slate-900">Zack Warren</span>
-        <span class="inline-flex text-lg text-slate-500">Full-stack Developer</span>
 
         <article class="easing-relaxed prose prose-slate mt-6">
-          <p class="lead">Frontend, backend, fullstack... whatever you want to call it. I just love to build stuff for the web. Whether it's code or content, I'm always driven to be as optimistic as possible to make sure that every engagment I have with a client, fellow developer, or anyone really, is positive and memorable!</p>
-          <p>Sweating the details is what I do best. I love working with clients to bring their ideas to life and create something that is not only visually stunning but also highly functional and user-friendly. I'm always looking for new challenges and opportunities to learn and grow as a developer.</p>
+          <p class="lead">I'm a full-stack developer based in Salt Lake City, Utah. I specialize in building web applications and websites using PHP, Laravel, Vue.js, and Tailwind CSS. I'm passionate about creating clean, maintainable code and delivering high-quality products that exceed my clients' expectations.</p>
+          <p>Sweating the details is what I do best. Whether it's code or content, I'm always driven to be as optimistic as possible to make sure that every engagment I have with a client, fellow developer -- or anyone really -- is positive and memorable! I love working with clients to bring their ideas to life and create something that is not only visually stunning but also highly functional and user-friendly. I'm always looking for new challenges and opportunities to learn and grow as a developer.</p>
         </article>
 
         <ul class="mt-6 flex space-x-2 text-slate-600">
@@ -55,13 +54,13 @@
 
         <div class="relative z-30 flex flex-col space-y-16">
           {{# Intro #}}
-          <div class="rounded-xl bg-slate-800 shadow-xl">
+          <div class="shadow-7xl max-w-4xl rounded-xl bg-slate-800">
             <div class="p-10">
               <div class="flex flex-col items-center gap-8 md:flex-row">
                 <div class="flex w-full flex-col space-y-10 md:w-1/2">
                   <h1 class="text-4xl font-bold text-white">Hi, I'm Zack! Developer and Web Artisan based in SLC</h1>
                   <div class="prose-sm text-white">
-                    <p>I'm {{ zacks_age }} years old, I work and live in Northern Utah. I'm married to my amazing wife, Brooke, who I've known for just about my entire life. We grew up in the same neighborhood together, and kept in touch on and off throughout our teenage years until we eventually got married. Together, we have a son Named River and our pupper Charlie (or Charles).</p>
+                    <p>I'm {{ zacks_age }} years old, I work and live in Northern Utah. I'm married to my amazing wife, Brooke, and together we have a son Named River and our pupper Charlie (or Charles).</p>
                   </div>
                 </div>
                 <div class="w-full self-start text-center md:w-1/2">
@@ -74,70 +73,171 @@
           {{# About #}}
           <div class="relative flex gap-6 lg:gap-14 xl:gap-20">
             <div class="sticky top-16 block self-start [writing-mode:vertical-rl]">
-              <h2 class="text-xl font-bold text-slate-800">About me</h2>
+              <h2 class="text-xl font-bold text-slate-800">Current Goals</h2>
             </div>
             <div class="flex w-full flex-col">
               <article class="easing-relaxed prose prose-lg prose-slate">
-                <p>Aside from coding and development, I love to travel with my family! We've been from Hawaii all the way to Amsterdam with a bunch of stops in between. Our goal is to travel around the entire globe and visit as many places as we can. I love music! I've played guitar and been in bands since I was about 10 years old. I love sports (Jazz, 49ers, SF Giants, Real Salt Lake) and going to sporting events.</p>
-                <p>I absolutely love building for the web. The freedom and expresiveness of web platforms gives me the ability to create anything I can think of. I'm lucky enough to be a Laravel developer. My goal is to become more of a teacher and mentor in the dev-space. I understand how tough it can be getting into development and learning the ins and outs, and I love when I can help someone else get to their next level of programming.</p>
+                <p>My current goal is working toward learning Swift and SwiftUI. Getting in to something that's completely outside of my realm of confortablity is where I feel like I need to be, at this point. The iOS ecosystem is interesting to me, given the popularity (obviously), but also the concept of "Build once, run on any Apple platform". This concept is familiary to me, as I've built apps using the Ionic Framework, which is known for it's similar concepts.</p>
+
+                <p>I'm working on becoming better with Shopify themes. I've built out my own starting framework for Shopify, using TailwindCSS and AlpineJS. I'm also working on a few projects that will be released as open source, to help other developers get up and running with Shopify, faster.</p>
+
+                <p>I'm currently working on becoming a better tester. I feel like I've been pretty good at writing convential tests, in PHPUnit, but moving to Pest has been very helpful. I'm also working on becoming a better frontend tester, using Vitest, as well as using tools like Cypress.</p>
               </article>
             </div>
           </div>
 
-          {{# Skills #}}
+          {{# Things #}}
           <div class="relative flex gap-6 lg:gap-14 xl:gap-20">
             <div class="sticky top-16 block self-start [writing-mode:vertical-rl]">
-              <h2 class="text-xl font-bold text-slate-800">Skillset</h2>
+              <h2 class="text-xl font-bold text-slate-800">Things I've Done</h2>
             </div>
             <div class="flex w-full flex-col">
-              <div class="grid w-full max-w-5xl grid-cols-1 gap-8 gap-x-4 sm:grid-cols-2 md:grid-cols-3">
-                <article class="prose prose-slate">
-                  <p class="font-bold">Core skills</p>
-                  <ul>
-                    <li>HTML</li>
-                    <li>CSS/SCSS</li>
-                    <li>Javascript (ES6)</li>
-                    <li>PHP</li>
-                  </ul>
-                </article>
-                <article class="prose prose-slate">
-                  <p class="font-bold">Frameworks</p>
-                  <ul>
-                    <li>Vue.js</li>
-                    <li>Ionic</li>
-                    <li>Intertia.js</li>
-                    <li>Tailwind</li>
-                  </ul>
-                </article>
-                <article class="prose prose-slate">
-                  <p class="font-bold">Technologies</p>
-                  <ul>
-                    <li>Bash / Terminal</li>
-                    <li>Vite/Webpack</li>
-                    <li>Package managers (NPM)</li>
-                    <li>Git</li>
-                  </ul>
-                </article>
-                <article class="prose prose-slate">
-                  <p class="font-bold">Back-end</p>
-                  <ul>
-                    <li>PHP/Laravel</li>
-                    <li>Mysql</li>
-                    <li>Redis</li>
-                  </ul>
-                </article>
-                <article class="prose prose-slate">
-                  <p class="font-bold">Topics</p>
-                  <ul>
-                    <li>Testing / TDD</li>
-                    <li>Github Actions (CI/CD)</li>
-                    <li>Application Architecture</li>
-                    <li>Consulting & Code Auditing</li>
-                  </ul>
-                </article>
+              <div class="flex flex-col divide-y divide-slate-100">
+                <div class="py-12 first:pt-0 last:pb-0">
+                  <div>
+                    <h3 class="mb-2 mt-2 text-2xl font-bold text-slate-800">FortifyUI</h3>
+                    <span class="font-sm text-slate-500">
+                      <p><a href="https://github.com/zacksmash/fortify-ui">GitHub &rarr;</a></p>
+                      <p><a href="https://packagist.org/packages/zacksmash/fortify-ui">Packagist &rarr;</a></p>
+                    </span>
+                    <article class="prose prose-slate mt-4">
+                      <p>
+                        over 10,000 FortifyUI is a Laravel package I created to get up and running with Laravel Fortify, without the opinionated frontend that comes with it. With
+                        <strong>over 10,000</strong>
+                        installs, FortifyUI is by far my most popular and successfuly venture into open source. FortifyUI installs and configures Laravel Fortify, as well as adding the features that Fortify doesn't come with, out of the box. By default and by design FortifyUI has unstyled templates, just plain ol' HTML, which gives the developer the ability to style them according to the design they have.
+                      </p>
+                    </article>
+                  </div>
+                </div>
+                <div class="py-12 first:pt-0 last:pb-0">
+                  <div>
+                    <h3 class="mb-2 mt-2 text-2xl font-bold text-slate-800">Fortify UIkit</h3>
+                    <span class="font-sm text-slate-500">
+                      <p><a href="https://github.com/zacksmash/fortify-uikit">GitHub &rarr;</a></p>
+                      <p><a href="https://packagist.org/packages/zacksmash/fortify-uikit">Packagist &rarr;</a></p>
+                    </span>
+                    <article class="prose prose-slate mt-4">
+                      <p>
+                        After building FortifyUI, I also wanted to create a preset installation for one of the CSS frameworks I use, called UIkit. This also made me think that other people may want to use FortifyUI, but install their own CSS Framework. So, I created the
+                        <a href="https://github.com/zacksmash/fortify-ui-preset">FortifyUI Preset</a>
+                        package to assist others in doing that. Currently, there are 7 different CSS presets for you to choose from, including Tailwind, Bootstrap and of course UIkit.
+                      </p>
+                    </article>
+                  </div>
+                </div>
+                <div class="py-12 first:pt-0 last:pb-0">
+                  <div>
+                    <h3 class="mb-2 mt-2 text-2xl font-bold text-slate-800">Anvil iOS App</h3>
+                    <article class="prose prose-slate mt-4 md:flex md:gap-4">
+                      <div>
+                        <p class="!mt-0">Anvil is a Laravel Forge companion app for iOS, built with the Ionic Framework. Anvil allows you to accomplish many of the things you can do on the web app, in a convenient mobile experience.</p>
+                        <p>
+                          I first started Anvil back in 2017, when Forge first released their API. I was able to release it on the App Store and even had an
+                          <a href="https://laravel-news.com/anvil-app">article written about it on Laravel News</a>
+                          . I've since rewritten it and I'm considering a re-release or just open sourcing it, this time.
+                        </p>
+                      </div>
+                      <img src="/img/anvil-for-ios.png" alt="Anvil for iOS" class="!mt-0 w-56 self-center justify-self-center rounded-xl shadow-xl" />
+                    </article>
+                  </div>
+                </div>
+                <div class="py-12 first:pt-0 last:pb-0">
+                  <div>
+                    <h3 class="mb-2 mt-2 text-2xl font-bold text-slate-800">Pipeline.js</h3>
+                    <span class="font-sm text-slate-500">
+                      <p><a href="https://github.com/zacksmash/pipeline.js">GitHub &rarr;</a></p>
+                      <p><a href="https://www.npmjs.com/package/@zacksmash/pipeline.js">NPM &rarr;</a></p>
+                    </span>
+                    <article class="prose prose-slate mt-4">
+                      <p>Pipeline.js is an NPM package I created when I first started using (and completely enjoying) Laravel's Pipeline. Pipeline.js gives you the same API that you're used to on the Laravel side, completely written with vanilla Javascript. This package was also built out of my curiosity to become more familiar with the Javascript Class syntax, like private properties & methods, and using static methods.</p>
+                    </article>
+                  </div>
+                </div>
+                <div class="py-12 first:pt-0 last:pb-0">
+                  <span class="font-sm text-slate-500">Open Source Contributions</span>
+                  <div>
+                    <h3 class="mt-2 text-lg font-bold text-slate-800">Laravel Ads SDK</h3>
+                    <span class="font-sm text-slate-500">
+                      <p><a href="https://github.com/tmarois/laravel-ads-sdk">GitHub &rarr;</a></p>
+                    </span>
+                    <article class="prose prose-slate mt-4">
+                      <p>Laravel Ads SDK is a wrapper for connecting to the popular online advertising platforms, Google Ads, Bing Ads and Facebook Ads. It provides a cleaner and more consistent integration across each platform</p>
+
+                      <p>I helped contribute updates to the Facebook Ads integration and keeping the Facebook SDK updated.</p>
+                    </article>
+                  </div>
+                  <div class="mt-4">
+                    <h3 class="mt-2 text-lg font-bold text-slate-800">Stringable Laravel</h3>
+                    <span class="font-sm text-slate-500">
+                      <p><a href="https://github.com/rudashi/stringable">GitHub &rarr;</a></p>
+                    </span>
+                    <article class="prose prose-slate mt-4">
+                      <p>Stringable Laravel is Javascripts version of Laravel's String helper class. It provides many of the same functions that you're used to using in PHP, right in your Javascript applications.</p>
+
+                      <p>I contributed some new methods and fixed a RegEx bug in the snake-case method.</p>
+                    </article>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+
+          {{# Skills #}}
+          {{#
+            <div class="relative flex gap-6 lg:gap-14 xl:gap-20">
+              <div class="sticky top-16 block self-start [writing-mode:vertical-rl]">
+                <h2 class="text-xl font-bold text-slate-800">Skillset</h2>
+              </div>
+              <div class="flex w-full flex-col">
+                <div class="grid w-full max-w-5xl grid-cols-1 gap-8 gap-x-4 sm:grid-cols-2 md:grid-cols-3">
+                  <article class="prose prose-slate">
+                    <p class="font-bold">Core skills</p>
+                    <ul>
+                      <li>HTML</li>
+                      <li>CSS/SCSS</li>
+                      <li>Javascript (ES6)</li>
+                      <li>PHP</li>
+                    </ul>
+                  </article>
+                  <article class="prose prose-slate">
+                    <p class="font-bold">Frameworks</p>
+                    <ul>
+                      <li>Vue.js</li>
+                      <li>Ionic</li>
+                      <li>Intertia.js</li>
+                      <li>Tailwind</li>
+                    </ul>
+                  </article>
+                  <article class="prose prose-slate">
+                    <p class="font-bold">Technologies</p>
+                    <ul>
+                      <li>Bash / Terminal</li>
+                      <li>Vite/Webpack</li>
+                      <li>Package managers (NPM)</li>
+                      <li>Git</li>
+                    </ul>
+                  </article>
+                  <article class="prose prose-slate">
+                    <p class="font-bold">Back-end</p>
+                    <ul>
+                      <li>PHP/Laravel</li>
+                      <li>Mysql</li>
+                      <li>Redis</li>
+                    </ul>
+                  </article>
+                  <article class="prose prose-slate">
+                    <p class="font-bold">Topics</p>
+                    <ul>
+                      <li>Testing / TDD</li>
+                      <li>Github Actions (CI/CD)</li>
+                      <li>Application Architecture</li>
+                      <li>Consulting & Code Auditing</li>
+                    </ul>
+                  </article>
+                </div>
+              </div>
+            </div>
+          #}}
 
           {{# Work/Roles #}}
           <div class="relative flex gap-6 lg:gap-14 xl:gap-20">
@@ -156,7 +256,7 @@
                   </div>
                 </div>
                 <div class="py-12 first:pt-0 last:pb-0">
-                  <span class="font-sm text-slate-500">Apr. 20202 — Dec. 2020</span>
+                  <span class="font-sm text-slate-500">Apr. 2020 — February. 2021</span>
                   <div>
                     <h3 class="mt-2 text-2xl font-bold text-slate-800">Co-Founder &bull; Partner / Schematik</h3>
                     <article class="prose prose-slate mt-4">
@@ -184,7 +284,7 @@
                   <div>
                     <h3 class="mt-2 text-2xl font-bold text-slate-800">Director of Development / Fluid Advertising</h3>
                     <article class="prose prose-slate mt-4">
-                      <p>At Fluid, we were a full-service digital marketing agency that specialized in creating custom solutions for our clients. As the Director of Development, I was responsible for leading a team of developers to create high-quality websites, web applications, and digital marketing campaigns. I worked closely with our clients to understand their needs and develop solutions that met their goals.</p>
+                      <p>Fluid Advertising is a full-service digital marketing agency that specializes in creating custom solutions for our clients. As the Director of Development, I was responsible for leading a team of developers to create high-quality websites, web applications, and digital marketing campaigns. I worked closely with our clients to understand their needs and develop solutions that met their goals.</p>
                       <div class="flex flex-wrap gap-2">
                         <span class="inline-flex items-center rounded-full bg-slate-200 px-2.5 py-0.5 text-xs font-medium text-slate-600">google analytics</span>
                         <span class="inline-flex items-center rounded-full bg-slate-200 px-2.5 py-0.5 text-xs font-medium text-slate-600">google tag manager</span>
