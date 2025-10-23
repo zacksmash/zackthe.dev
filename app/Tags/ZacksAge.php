@@ -13,6 +13,6 @@ class ZacksAge extends Tags
      */
     public function index()
     {
-        return now()->diffInYears(now()->year(1988)->month(1)->day(13));
+        return floor(now()->parse('1988-01-13')->diffInYears());
     }
 }
